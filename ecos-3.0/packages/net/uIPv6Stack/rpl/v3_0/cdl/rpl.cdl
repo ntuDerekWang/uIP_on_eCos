@@ -1,0 +1,23 @@
+# ====================================================================
+######DESCRIPTIONBEGIN####
+#
+# Author(s):      Derek Wang
+# Original data:  
+# Contributors:   
+# Date:           2012-4
+#
+#####DESCRIPTIONEND####
+#
+# ====================================================================
+cdl_package CYGPKG_NET_RPL {
+    display       "RPL Routing"
+    parent        CYGPKG_NET_UIP6_STACK
+    description   "ported partially from Contiki uIP Stack"
+    hardware
+    include_dir   cyg/net/uIPv6Stack/rpl
+    compile       rpl.c rpl-icmp6.c rpl-of0.c rpl-of-etx.c rpl-dag.c rpl-timers.c
+      
+}
+
+
+

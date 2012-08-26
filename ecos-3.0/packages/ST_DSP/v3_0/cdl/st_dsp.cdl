@@ -1,0 +1,22 @@
+# ====================================================================
+######DESCRIPTIONBEGIN####
+#
+# Author(s):      Derek Wang
+# Original data:  
+# Contributors:   
+# Date:           2012-4
+#Usage:       #include <cyg/stm32_dsp.h>
+#####DESCRIPTIONEND####
+#
+# ====================================================================
+cdl_package CYGPKG_ST_DSP {
+    display       "DSP_library"
+    description   "DSP_library for ST Cortex M3"
+    include_dir   cyg
+    compile  cr4_fft_64_stm32.S cr4_fft_256_stm32.S cr4_fft_1024_stm32.S iirarma_stm32.S fir_stm32.S PID_stm32.S
+     
+}
+# EOF DW_config.cdl
+
+
+

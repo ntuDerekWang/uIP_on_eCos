@@ -1,0 +1,23 @@
+##=============================================================================
+##
+##      stm_timer_DW.cdl
+##
+##=============================================================================                                   
+##=============================================================================
+#######DESCRIPTIONBEGIN###
+##  Purpose:     stm_timer_DW driver on eCos
+##  Usage:       #include <cyg/io/stm32f10x_tim.h>
+######DESCRIPTIONEND####
+##
+##=============================================================================
+
+cdl_package CYGPKG_DEVS_STM_TIMER_DW_DRIVER {
+    display       "stm_timer_driver"
+    description   "stm_timer_driver"
+    hardware
+    include_dir   cyg/io
+    compile       stm32f10x_tim.c stm32f10x_rcc.c 
+
+}
+# EOF stm_timer_DW.cdl
+       

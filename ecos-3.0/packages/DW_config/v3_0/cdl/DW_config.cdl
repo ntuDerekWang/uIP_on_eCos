@@ -1,0 +1,23 @@
+##=============================================================================
+##
+##      DW_config.cdl
+##
+##=============================================================================                                   
+##=============================================================================
+#######DESCRIPTIONBEGIN###
+##  Purpose:     DW_config on eCos
+##  Usage:       #include <cyg/DW_config.h>
+######DESCRIPTIONEND####
+##
+##=============================================================================
+
+cdl_package DW_CONFIG {
+    display       "DW_config"
+    description   "DW_config"
+    hardware
+    include_dir   cyg
+    compile       DW_config.c
+
+}
+# EOF DW_config.cdl
+       

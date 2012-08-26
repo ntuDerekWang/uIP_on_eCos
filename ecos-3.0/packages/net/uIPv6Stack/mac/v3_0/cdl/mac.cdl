@@ -1,0 +1,21 @@
+# ====================================================================
+######DESCRIPTIONBEGIN####
+#
+# Author(s):      Derek Wang
+# Original data:  
+# Contributors:   
+# Date:           2012-4
+#
+#####DESCRIPTIONEND####
+#
+# ====================================================================
+cdl_package CYGPKG_NET_MAC {
+    display       "802.15.4MAC"
+    parent        CYGPKG_NET_UIP6_STACK
+    description   "ported partially from Contiki uIP Stack"
+    hardware
+    include_dir   cyg/net/uIPv6Stack/mac
+    compile  frame802154.c mac.c csma.c uzmac.c framer-802154.c nullmac.c
+}
+
+

@@ -1,0 +1,23 @@
+##=============================================================================
+##
+##      uz2400_driver.cdl
+##
+##=============================================================================                                   
+##=============================================================================
+#######DESCRIPTIONBEGIN###
+##  Purpose:     uz2400_driver on eCos
+##  Usage:       #include <cyg/io/uz2400_driver.h>
+######DESCRIPTIONEND####
+##
+##=============================================================================
+
+cdl_package CYGPKG_DEVS_UZ2400_DRIVER {
+    display       "uz2400_driver"
+    description   "uz2400_driver"
+    hardware
+    include_dir   cyg/io
+    compile       rf_package.c uz_isr.c uz_spif.c uz_srf.c  
+
+}
+# EOF uz2400_driver.cdl
+       
