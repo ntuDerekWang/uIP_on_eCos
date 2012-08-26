@@ -16,7 +16,7 @@
 //#include "cyg/net/uIPv6Stack/uIPv6/tcpip.h"
 
 //#define DEBUG DEBUG_PRINT
-#define DEBUG DEBUG_NONE
+#define DEBUG DEBUG_NONE       
 
 #include "cyg/net/uIPv6Stack/uIPv6/uip-debug.h"
 
